@@ -42,6 +42,13 @@ const numbers = ['0', '1', '3', '4', '5'];
 numbers.splice(2,0,'2');
 console.log(numbers);
 
+//Array slice
+//It cuts a portion of elements
+
+const food =['pizza', 'burger', 'cheesburger', 'potatoes'];
+console.log(food.slice(3));
+console.log(food.slice(1,4));
+
 // Array forEach 
 //It executes a provided function once for each array element.
 
